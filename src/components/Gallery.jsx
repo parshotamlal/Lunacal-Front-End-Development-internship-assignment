@@ -64,16 +64,7 @@ const manualImages = [
 
 const allImages = [...manualImages, ...images];
 
-//   const handlePrevious = () => {
-//     setCurrentIndex((prev) => Math.max(prev - 1, 0));
-//   };
 
-//   const handleNext = () => {
-//     const maxIndex = allImages.length - imagesPerView;
-//     setCurrentIndex((prev) => Math.min(prev + 1, maxIndex));
-//   };
-
-//  const translateValue = (currentIndex * 100) / imagesPerView;
 
 
 const handlePrevious = () => {
